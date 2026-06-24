@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .login-card {
+            background: white;
+            padding: 30px 25px;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+            width: 100%;
+            max-width: 340px;
+        }
+
+        .login-card h1 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #000;
+        }
+
+        .login-card input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #bdbdbd;
+            border-radius: 4px;
+            font-size: 15px;
+        }
+
+        .login-card input[type="password"] {
+            border: 2px solid #000;
+        }
+
+        .login-card input:focus {
+            outline: none;
+            border-color: #4fc3f7;
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #4fc3f7;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+
+        .login-btn:hover {
+            background-color: #29b6f6;
+        }
+
+        .project-info {
+            margin-top: 40px;
+            color: #fff;
+            font-size: 16px;
+            text-align: center;
+            background: #333;
+            padding: 15px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-card">
+        <h1>Login</h1>
+        <form>
+            <input type="email" placeholder=" Enter Email" required>
+            <input type="password" placeholder=" Enter Password" required>
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+    </div>
+
+    
+
+    
+</body>
+</html>
